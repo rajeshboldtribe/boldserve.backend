@@ -9,6 +9,7 @@ const meetingRoomRouter = require("./routes/meetingRoom.routes");
 const userRouter = require("./routes/user.router");
 const seedMeetingRooms = require('./seeders/meetingRoomSeeder');
 const sequelize = require('./config/db');
+const cors=require('cors');
 
 const app = express();
 const port = process.env.APP_PORT;
